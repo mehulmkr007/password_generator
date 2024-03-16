@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div class="container">
+
+            <h1>Password Generator</h1>
+
+            <div class="display-container">
+
+                <input readonly class="text-password" placeholder="Password" class="data-password-display">
+
+                <button class="display-container-btn">
+                    <span class="Copy-msg">copied</span>
+                    <img src="/assets/copy.svg" alt="#image">
+                </button>
+
+            </div>
+
+            <div class="input-container">
+
+                <div class="text_number-container">
+                    <h2>Password Length</h2>
+                    <span class="Length_number">10</span>
+                </div>
+
+                <div class="slider_01">
+                    <input type="range" min="1" max="20" class="slider" step="1" slider-mehul>
+                </div>
+
+                <div class="password-property">
+                    <div class="pp1 check">
+                        <input type="checkbox" class="box1">
+                        <label for="uppercash">Include UpperCash latter</label>
+                    </div>
+                    <div class="pp2 check">
+                        <input type="checkbox" class="box2">
+                        <label for="lowercash">Include LowerCash latter</label>
+                    </div>
+                    <div class="pp3 check">
+                        <input type="checkbox" class="box3">
+                        <label for="number">Include Number</label>
+                    </div>
+                    <div class="pp4 check">
+                        <input type="checkbox" class="box4">
+                        <label for="symbol">Include Symbol</label>
+                    </div>
+
+                </div>
+
+                <div class="strenth-showing">
+                    <h2>Strenth</h2>
+                    <button class="strenth-display"></button>
+
+                </div>
+
+                <div class="generator-button">
+                    <button class="generator-btn">Generator Password</button>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+    <script src="/index.js"></script>
+</body>
+
+</html>
