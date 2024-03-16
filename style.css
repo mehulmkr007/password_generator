@@ -255,3 +255,7 @@ h1 {
     font-weight: 600;
     font-size: 1.25rem;
 }
+
+.generator-button button:hover{
+    cursor: pointer;
+}
